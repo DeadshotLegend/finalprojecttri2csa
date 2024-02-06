@@ -28,12 +28,12 @@ public class GroceryItem {
   }
 
 // Getter
-  public String getQuantity() {
+  public int getQuantity() {
     return quantity;
   }
 
 // Setter
-  public String setQuantity(String newQuantity) {
+  public int setQuantity(int newQuantity) {
     this.quantity = newQuantity; 
   }
 
